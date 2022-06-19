@@ -21,3 +21,9 @@ macOS application to explore code snippets from the Swift and iOS community, vie
 - In-app download of new snippets from the community
 
   ![downloadLatestCommunitySnippets](https://user-images.githubusercontent.com/4176826/174482617-983f72e2-e88a-46a5-9018-c4e24b6c7fe1.gif)
+
+## Install
+
+Download the latest version from [GitHub Releases](https://github.com/MarcoEidinger/XCSnippetsApp/releases).
+
+Copy XCSnippetsApp to your Applications folder.
