@@ -19,6 +19,9 @@ macOS application to explore code snippets from the Swift and iOS community, vie
   ![addToXcode](https://user-images.githubusercontent.com/4176826/174482001-6d3eacf4-34a8-4554-bde6-6cc8122bd1da.gif)
 
 - In-app download of new snippets from the community
+  
+  ![downloadLatestCommunitySnippetsNew](https://user-images.githubusercontent.com/4176826/174503173-8d393bec-143a-4ce4-a053-0485fcc3b664.gif)
+
 
   ![downloadLatestCommunitySnippets](https://user-images.githubusercontent.com/4176826/174482617-983f72e2-e88a-46a5-9018-c4e24b6c7fe1.gif)
 
