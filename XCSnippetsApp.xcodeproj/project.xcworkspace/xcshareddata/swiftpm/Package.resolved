@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "codeeditor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ZeeZide/CodeEditor",
+      "state" : {
+        "revision" : "03ac74486c5076ea45f4c5d2c6e5611649715db2",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "highlightr",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/raspu/Highlightr",
+      "state" : {
+        "revision" : "93199b9e434f04bda956a613af8f571933f9f037",
+        "version" : "2.1.2"
+      }
+    },
+    {
+      "identity" : "xcsnippets",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MarcoEidinger/XCSnippets.git",
+      "state" : {
+        "revision" : "1c0b1953e0cf09b16e2af973f6f9a2ddeaf2ca18",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

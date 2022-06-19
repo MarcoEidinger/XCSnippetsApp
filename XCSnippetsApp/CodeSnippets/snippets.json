@@ -1,0 +1,2180 @@
+{
+  "list" : [
+    {
+      "IDECodeSnippetTitle" : "创建一个返回值为空的方法",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "- (void)<#method name#> {\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "6B47EC5A-B22B-4155-8C3F-632CCDFC4502",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "fnv"
+    },
+    {
+      "IDECodeSnippetTitle" : "swiftmark",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "\/\/ MARK: - <#section#>",
+      "IDECodeSnippetIdentifier" : "A54D18ED-62B6-4468-9F9F-880DEF598DAF",
+      "IDECodeSnippetCompletionPrefix" : "swiftmark",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetTitle" : "Back UIBarButtonItem",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "backItem",
+      "IDECodeSnippetContents" : "[UIBarButtonItem qmui_backItemWithTarget:self action:@selector(<#selector name#>)];",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "47B97B84-8A9F-4862-B658-AC7849E83C75",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetIdentifier" : "346D0D22-46F9-4BB1-AACB-82574540A27E",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "do {\n      try <#code#>\n    } catch <#errortype#> {\n    <#code#>\n    } catch <#errortype#> {\n    <#code#>\n    }",
+      "IDECodeSnippetCompletionPrefix" : "swifttrycatch",
+      "IDECodeSnippetTitle" : "swifttrycatch",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetIdentifier" : "34DD9E8F-5AF0-4CD0-9A6C-B3E4C7CCBD7F",
+      "IDECodeSnippetTitle" : "didInitialize",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "didInitialize",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (void)didInitialize {\n    [super didInitialize];\n    <##>\n}"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "snippetViewWillDisappear",
+      "IDECodeSnippetTitle" : "viewWillDisappear",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "viewWillDisappear",
+      "IDECodeSnippetContents" : "override func viewWillDisappear(_ animated: Bool) {\n  super.viewWillDisappear(animated)\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetIdentifier" : "EC31BFB5-3D5A-42DE-BED5-86E975C94D8F",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "39E33A76-F4E9-4531-9638-7CBB4ABA4B8C",
+      "IDECodeSnippetCompletionPrefix" : "swiftdispatchasync",
+      "IDECodeSnippetTitle" : "swiftdispatchasync",
+      "IDECodeSnippetContents" : "DispatchQueue.global(qos: .background).async {\n  <#code#>\n}",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "numberOfRowsInSection",
+      "IDECodeSnippetTitle" : "numberOfRowsInSection:",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "A57800E7-5EA2-44BC-A868-39E0FB029E6C",
+      "IDECodeSnippetContents" : "- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {\n    return <#numberOfRows#>\n}",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "viewDidDisappear",
+      "IDECodeSnippetIdentifier" : "7FA93830-68A9-4F6F-B87E-F9304B210C4B",
+      "IDECodeSnippetTitle" : "viewDidDisappear:",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetContents" : "- (void)viewDidDisappear:(BOOL)animated {\n    [super viewDidDisappear:animated];\n    <#code#>\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetSummary" : "Document directory path snippet for Swift",
+      "IDECodeSnippetContents" : "if let path = NSSearchPathForDirectoriesInDomains(FileManager.SearchPathDirectory.documentDirectory, FileManager.SearchPathDomainMask.userDomainMask, true).first {\n\t\tlet documentsDirectoryURL = NSURL.fileURL(withPath: path)\n\t}",
+      "IDECodeSnippetIdentifier" : "E3AE2218-F56E-45BE-909F-1EC5DE83F3AE",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swift-documentdirectory",
+      "IDECodeSnippetTitle" : "Swift document directory",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetSummary" : "Add a MARK with a placeholder name",
+      "IDECodeSnippetCompletionPrefix" : "snippetMark",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "MARK",
+      "IDECodeSnippetContents" : "\/\/ MARK: - <#Name#>",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetIdentifier" : "B104C8B3-11D8-481F-A6BE-04A53D3DECC2",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetContents" : "[UIBarButtonItem qmui_itemWithTitle:<#(nullable NSString *)#> target:self action:@selector(<#selector name#>)];",
+      "IDECodeSnippetCompletionPrefix" : "titleItem",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "43063D01-168F-43E2-B0D4-10A07FA19445",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetTitle" : "Title UIBarButtonItem"
+    },
+    {
+      "IDECodeSnippetTitle" : "QMUI - 用swizzle方式创建weak类型的property的getter\/setter",
+      "IDECodeSnippetIdentifier" : "5BD3118C-1D72-471C-BED5-AF14D9EE54FF",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "static char kAssociatedObjectKey_<#property name#>;\n- (void)set<#property name#> {\n    QMUIWeakObjectContainer *weakContainer = objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>);\n    if (!weakContainer) {\n        weakContainer = [QMUIWeakObjectContainer new];\n    }\n    weakContainer.object = <#argument name#>;\n    objc_setAssociatedObject(self, &kAssociatedObjectKey_<#property name#>, weakContainer, OBJC_ASSOCIATION_RETAIN_NONATOMIC);\n}\n\n- <#property getter#> {\n    return (<#property type#> *)((QMUIWeakObjectContainer *)objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>)).object;\n}",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "propertySwizzleWeak_QMUI",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetIdentifier" : "499A01BF-2245-446A-A7D5-D940FE6833CD",
+      "IDECodeSnippetContents" : "static char kAssociatedObjectKey_<#property name#>;\n- (void)set<#property name#> {\n    objc_setAssociatedObject(self, &kAssociatedObjectKey_<#property name#>, <#argument name#>, OBJC_ASSOCIATION_COPY_NONATOMIC);\n}\n\n- <#property getter#> {\n    return (<#Property type#> *)objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>);\n}",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "propertySwizzleCopy",
+      "IDECodeSnippetTitle" : "用swizzle方式创建copy类型的property的getter\/setter",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "sizeForItemAtIndexPath",
+      "IDECodeSnippetContents" : "- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {\n    return CGSizeMake(<#width#>, <#height#>);\n}",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "AD640EEB-3A51-46EF-8B2E-47B72779C9C3",
+      "IDECodeSnippetTitle" : "sizeForItemAtIndexPath:",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "jsonFileRead",
+      "IDECodeSnippetContents" : "let path: String = \"<# pathToFile #>\"\nlet readingOptions: JSONSerialization.ReadingOptions = .allowFragments\nlet data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)\nlet json = try JSONSerialization.jsonObject(with: data, options: readingOptions)\nlet jsonDictionary = json as? [String: Any]",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetIdentifier" : "83743DD3-C190-4E4E-AA70-5434AC345299",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Read from a JSON file at a given path",
+      "IDECodeSnippetSummary" : "Read file contents and serialize the JSON data to a dictionary",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetTitle" : "didSelectRowAtIndexPath:",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {\n    <#code#>\n}",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "didSelectRowAtIndexPath",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "5090E861-C500-42E1-B0FE-2F30D4A4B752"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "3B9FA813-1CC1-4973-A55D-FAC087F2F75D",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "#pragma mark - <#Section#>",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Pragma Mark",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "pragma"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swift-dispatchafter",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "DispatchQueue.main.asyncAfter(deadline: .now() + .seconds(<#seconds#>)) {\n    \n}",
+      "IDECodeSnippetIdentifier" : "E772ABB6-7616-42C2-9F95-9884388957EE",
+      "IDECodeSnippetSummary" : "GCD dispatch_after snippet for Swift",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Swift dispatch_after",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetContents" : "let alert = UIAlertController(title: <#title#>, message: <#message#>, preferredStyle: .alert)\n            alert.addAction(UIAlertAction(title: \"\", style: .default, handler: { (action) in\n              alert.dismiss(animated: <#Bool#>, completion: {\n                <#code#>\n              })\n    }))\n  \n    presentViewController(alert, animated: true, completion: nil)",
+      "IDECodeSnippetTitle" : "Swift - UIAlertController",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetIdentifier" : "3141D76F-5123-4B60-8D39-8AD76BF37BF4",
+      "IDECodeSnippetSummary" : "Present a UIAlertController",
+      "IDECodeSnippetCompletionPrefix" : "swift-uialertcontroller",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "__strongSelf",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "strongSelf",
+      "IDECodeSnippetContents" : "__strong __typeof(weakSelf)strongSelf = weakSelf;",
+      "IDECodeSnippetIdentifier" : "strongSelf",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetTitle" : "removeFromParentViewController",
+      "IDECodeSnippetCompletionPrefix" : "removeFromParentViewController",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetSummary" : "UIViewController removeFromParentViewController",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "04996CD3-4E1F-49A9-A3CC-C3E42D5673BB",
+      "IDECodeSnippetContents" : "[<#childViewController#> willMoveToParentViewController:nil];\n        [<#childViewController#>.view removeFromSuperview];\n        [<#childViewController#> removeFromParentViewController];",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "dispatch async global queue",
+      "IDECodeSnippetCompletionPrefix" : "dispatch_async_global",
+      "IDECodeSnippetContents" : "dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{\n        <##>\n    });",
+      "IDECodeSnippetIdentifier" : "6488796C-06A8-475A-9488-DD899B3EAC1A"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (void)setupToolbarItems {\n    [super setupToolbarItems];\n    <#code#>\n}",
+      "IDECodeSnippetTitle" : "setupToolbarItems",
+      "IDECodeSnippetIdentifier" : "022DE893-7D28-4272-B3F7-9B493601EFBE",
+      "IDECodeSnippetCompletionPrefix" : "setupToolbarItems"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "A4384427-2E28-4CBD-93EB-B9C7DE21404D",
+      "IDECodeSnippetCompletionPrefix" : "getHeight",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetTitle" : "CGRectGetHeight",
+      "IDECodeSnippetContents" : "CGRectGetHeight(<#CGRect rect#>)"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "799325FD-C68C-4BD4-AFE5-F398D97107F6",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "addtarget",
+      "IDECodeSnippetContents" : "[<#control#> addTarget:self action:@selector(handle<#controlName#>Event:) forControlEvents:UIControlEventTouchUpInside];",
+      "IDECodeSnippetTitle" : "UIControl Add Target",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {\n    return <#number#>;\n}",
+      "IDECodeSnippetCompletionPrefix" : "numberOfSectionsInTableView",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "numberOfSectionsInTableView:",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "D7C98832-B74F-4274-881D-50D6EA4981B2"
+    },
+    {
+      "IDECodeSnippetTitle" : "NSLog",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetIdentifier" : "5DD6260F-35C7-46BA-A7FD-B0FD4B55BCE2",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "log",
+      "IDECodeSnippetContents" : "NSLog(@\"<##>\");"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetTitle" : "print stack symbols",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "NSLog(@\"Call Stack: %@\", [NSThread callStackSymbols]);",
+      "IDECodeSnippetCompletionPrefix" : "logCallStackSymbols",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetIdentifier" : "9CDCCD18-A33D-48DF-8363-F028E1465EC2",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "021DC28A-CFB6-45A2-B055-D3D552E5301D",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "cellForRowAtIndexPath",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {\n    static NSString *identifier = @\"cell\";\n    <#UITableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:identifier];\n    if (!cell) {\n        cell = [[<#UITableViewCell#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];\n    }\n    return cell;\n}",
+      "IDECodeSnippetTitle" : "cellForRowAtIndexPath:"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "731C3867-9874-4559-8350-5F2B054A5AF9",
+      "IDECodeSnippetSummary" : "GCD dispatch_async snippet for Swift",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "Swift dispatch_async",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "swift-dispatchasync",
+      "IDECodeSnippetContents" : "DispatchQueue.global(qos: .default).async {\n    <#asynchronous work#>\n    DispatchQueue.main.async {\n        <#callback#>\n    }\n}",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetSummary" : "OC方法参数里的 block 声明",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "block as OC method parameter",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "B0665B7F-4534-4DBA-A986-4CD8B7574215",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "blockParameterInMethod",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "(<#returnType#> (^)(<#parameterTypes#>))<#blockName#>"
+    },
+    {
+      "IDECodeSnippetContents" : "[[[[RACSignal combineLatest:@[RACObserve(<#object#>, <#property1#>),\n                                      RACObserve(<#object#>, <#property2#>)]] map:^id _Nullable(RACTuple *tuple) {\n            return @(<#BOOL#>);\n        }] distinctUntilChanged] subscribeNext:^(NSNumber *x) {\n            @strongify(self);\n            if (x.boolValue) {\n                <#do something#>\n            }\n        }];",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "RAC Combine",
+      "IDECodeSnippetIdentifier" : "901FCC55-9658-48F2-AFFD-DAD0957FDA3C",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "rac_combine"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "terminateXcode",
+      "IDECodeSnippetTitle" : "Terminate Xcode",
+      "IDECodeSnippetSummary" : "Force termination of running Xcode application",
+      "IDECodeSnippetIdentifier" : "89F41559-446D-44F7-8154-6AEEBC391E09",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetPlatformFamily" : "macosx",
+      "IDECodeSnippetContents" : "if let runningXcode = NSRunningApplication.runningApplications(withBundleIdentifier: \"com.apple.dt.Xcode\").first {\n    runningXcode.forceTerminate()\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetIdentifier" : "80B6AA57-C58F-4B87-9C34-68469992CD0A",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetTitle" : "swiftdispatchafter",
+      "IDECodeSnippetCompletionPrefix" : "swiftdispatchafter",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "DispatchQueue.main.asyncAfter(deadline: .now() + <#time#>) {\n  <#code#>\n}"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetSummary" : "UITableViewDelegate初始化代码",
+      "IDECodeSnippetTitle" : "UITableViewDelegate",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetContents" : "- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {\n    return <#number#>;\n}\n\n- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {\n    return <#numberOfRows#>;\n}\n\n- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {\n    return <#heightForRow#>;\n}\n\n- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {\n    static NSString *identifier = @\"cell\";\n    <#UITableViewCell#> *cell = [tableView dequeueReusableCellWithIdentifier:identifier];\n    if (!cell) {\n        cell = [[<#UITableViewCell#> alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];\n    }\n    return cell;\n}\n\n- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {\n    <#code#>\n}",
+      "IDECodeSnippetIdentifier" : "10AF1F50-BF9C-4579-B6D7-45F5DF40D63A",
+      "IDECodeSnippetCompletionPrefix" : "tableViewDelegate"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "extend_void_two_argvs",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "ExtendImplementationOfVoidMethodWithTwoArguments([<#targetClass#> class], @selector(<#targetSelector#>), <#argumentType1#>, <#argumentType2#>, ^(<#targetClass#> *selfObject, <#argumentType1#> firstArgv, <#argumentType2#> secondArgv) {\n            <#custom extend#>\n        });",
+      "IDECodeSnippetTitle" : "Extend Implementation Of Void Return Two Arguments",
+      "IDECodeSnippetIdentifier" : "61426012-95A0-401A-A3AC-89F229A9B831"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "E351FBA5-DDEF-4EC3-970E-8EA7F6CCF579",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "viewWillDisappear",
+      "IDECodeSnippetContents" : "- (void)viewWillDisappear:(BOOL)animated {\n    [super viewWillDisappear:animated];\n    <#code#>\n}",
+      "IDECodeSnippetTitle" : "viewWillDisappear:",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "exchange method implementations in +load with QMUI",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "+ (void)load {\n    static dispatch_once_t onceToken;\n    dispatch_once(&onceToken, ^{\n        ExchangeImplementations(<#class#>, @selector(<#origin selecotr#>), @selector(<#new selector#>));\n    });\n}",
+      "IDECodeSnippetCompletionPrefix" : "exchangeImplementation_QMUI",
+      "IDECodeSnippetIdentifier" : "444CF4FA-4BD2-43F5-8278-7234EA8E5FBF",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "imageItem",
+      "IDECodeSnippetContents" : "[UIBarButtonItem qmui_itemWithImage:UIImageMake(@\"<#image name#>\") target:self action:@selector(<#selector name#>)];",
+      "IDECodeSnippetIdentifier" : "3A422B1A-0422-41EC-8CB7-D7B961CDC76D",
+      "IDECodeSnippetTitle" : "Image UIBarButtonItem",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetSummary" : "Use Process to open Xcode programmatically",
+      "IDECodeSnippetContents" : "let task = Process()\nlet pipe = Pipe()\n\ntask.standardOutput = pipe\ntask.standardError = pipe\ntask.arguments = [\"-c\", \"open -a Xcode\"]\ntask.launchPath = \"\/bin\/zsh\"\ntask.standardInput = nil\ntask.launch()",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "Open Xcode",
+      "IDECodeSnippetCompletionPrefix" : "openXcode",
+      "IDECodeSnippetPlatformFamily" : "macosx",
+      "IDECodeSnippetIdentifier" : "E70E73EE-1E44-4598-BB92-1815ADC2BD54",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetSummary" : "NSLocalizedString function snippet for Swift",
+      "IDECodeSnippetTitle" : "Swift NSLocalizedString",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "NSLocalizedString(<#key#>, comment: <#comment#>)",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "F60D36B3-5FE0-4C44-92AD-E33658E5AF89",
+      "IDECodeSnippetCompletionPrefix" : "swift-nslocalizedstring",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "CGRectGetMinY(<#CGRect rect#>)",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "CGRectGetMinY",
+      "IDECodeSnippetCompletionPrefix" : "getMinY",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "6B079320-8812-48E4-ABE9-6303E529ADCA"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "00BCE9A8-0268-4700-BA64-83A000EF3825",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "ExtendImplementationOfNonVoidMethodWithoutArguments([<#targetClass#> class], @selector(<#targetSelector#>), <#returnType#>, ^<#returnType#>(<#targetClass#> *selfObject, <#returnType#> originReturnValue) {\n    return <#custom extend#>\n});",
+      "IDECodeSnippetTitle" : "Extend Implementation Of Non Void Return Non Argument",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "extend_return_non_argv"
+    },
+    {
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n        return ^(<#targetClass#> *selfObject, <#argumentType#> firstArgv) {\n\n            \/\/ call super\n            void (*originSelectorIMP)(id, SEL, <#argumentType#>);\n            originSelectorIMP = (void (*)(id, SEL, <#argumentType#>))originalIMPProvider();\n            originSelectorIMP(selfObject, originCMD, firstArgv);\n            \n            <#custom override#>\n        };\n    });",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "override_void_single_argv",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "D1B458BC-5F28-45E9-A26A-63BD851DD21C",
+      "IDECodeSnippetTitle" : "Override Implementation Of Void Return Single Argument"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "swiftuitableviewdatasource",
+      "IDECodeSnippetIdentifier" : "CE2F717F-36C5-4A9F-A8D4-D8870E5572EC",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swiftuitableviewdatasource",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "func numberOfSections(in tableView: UITableView) -> Int {\n  return <#count#>\n}\n\nfunc tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {\n  return <#count#>\n}\n\nfunc tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {\n  <#code#>\n}"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "deprecated message",
+      "IDECodeSnippetCompletionPrefix" : "deprecated",
+      "IDECodeSnippetIdentifier" : "B3E536D7-2C10-4F21-9FB8-2173A3D5DD8D",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetContents" : "DEPRECATED_MSG_ATTRIBUTE(\"<#message#>\")",
+      "IDECodeSnippetPlatformFamily" : "iphoneos"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "815B1E31-537D-46BF-9A94-66398479A921",
+      "IDECodeSnippetSummary" : "MARKs to use in your UIViewController",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "\/\/ MARK: - Properties\n\n\/\/ MARK: - IBOutlets\n\n\/\/ MARK: - Life cycle\n\n\/\/ MARK: - Set up\n\n\/\/ MARK: - IBActions\n\n\/\/ MARK: - Actions\n\n\/\/ MARK: - Navigation\n\n\/\/ MARK: - Network Manager calls\n\n\/\/ MARK: - Extensions\n  ",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetTitle" : "UIViewController MARKs",
+      "IDECodeSnippetCompletionPrefix" : "snippetMarksUIViewController"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "snippetViewWillAppear",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "viewWillAppear",
+      "IDECodeSnippetTitle" : "viewWillAppear",
+      "IDECodeSnippetIdentifier" : "5C1B2AA3-F555-4FFE-A089-1594E2E78454",
+      "IDECodeSnippetContents" : "override func viewWillAppear(_ animated: Bool) {\n  super.viewWillAppear(animated)\n}",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetTitle" : "didDeselectItemAtIndexPath:",
+      "IDECodeSnippetContents" : "- (void)collectionView:(UICollectionView *)collectionView didDeselectItemAtIndexPath:(NSIndexPath *)indexPath {\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "8856E30C-BC54-42E2-97DA-882B595548F6",
+      "IDECodeSnippetCompletionPrefix" : "didDeselectItemAtIndexPath",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "DispatchQueue.main.async(execute: { () -> Void in\n    \n})",
+      "IDECodeSnippetCompletionPrefix" : "swift-dispatchmain",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetIdentifier" : "E8847AF3-D9A6-40C6-9DC1-981DD1A1042A",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Swift dispatch_async on main queue",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetSummary" : "GCD dispatch_async on main queue snippet for Swift"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swift-closuretypealias",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "typealias <#ClosureName#> = (_ <#arguments#>: <#type#>) -> <#return value#>",
+      "IDECodeSnippetTitle" : "Swift closure typealias",
+      "IDECodeSnippetSummary" : "Closure typealias with arguments and return value snippet for Swift",
+      "IDECodeSnippetIdentifier" : "42AA2BDB-AA64-4260-9726-A72C20E79FBB"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "setImageForButton",
+      "IDECodeSnippetTitle" : "set UIButton Image",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "EC69F79A-C822-4381-ACE7-82BA4ED97D27",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "[<#button#> setImage:<#image#> forState:UIControlStateNormal];",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetContents" : "@property(nonatomic, assign) <#type#> <#name#>;",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "9F96E543-5450-452B-9CA8-8BCCD8D841ED",
+      "IDECodeSnippetTitle" : "Property For Assign",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "pa",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "static char kAssociatedObjectKey_<#property name#>;\n- (void)set<#property name#> {\n    objc_setAssociatedObject(self, &kAssociatedObjectKey_<#property name#>, @(<#argument name#>), OBJC_ASSOCIATION_RETAIN_NONATOMIC);\n}\n\n- <#property getter#> {\n    return [((NSNumber *)objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>)) <#NSNumber value type for property#>];\n}",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "83D77BF6-443B-4513-A2C3-DAE9263D6995",
+      "IDECodeSnippetTitle" : "用swizzle方式创建assign类型的property的getter\/setter",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "propertySwizzleAssign",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetTitle" : "swiftcheckavailability",
+      "IDECodeSnippetIdentifier" : "286EE23E-804C-448C-84C2-437F71E31054",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "swiftcheckavailability",
+      "IDECodeSnippetContents" : "if #available(iOS 9, *) {\n    <#API available statements#>\n} else if #available(macOS 10.12, *) {\n    <#API available statements#>\n} else {\n    <#fallback statements#>\n}"
+    },
+    {
+      "IDECodeSnippetTitle" : "Swift weakify self",
+      "IDECodeSnippetCompletionPrefix" : "swift-weak",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "B5FFB5B9-1B62-49B5-B1E1-0749BBE07D42",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeExpression"
+      ],
+      "IDECodeSnippetContents" : "[weak self] in\n            guard let `self` = self else { return }",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "weakify self in closure"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "8B1C05A2-7F9D-4877-9A2A-69BC4CD1E990",
+      "IDECodeSnippetCompletionPrefix" : "pc",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Property For Copy",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "@property(nonatomic, copy) <#type#> *<#name#>;",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "setFrameY",
+      "IDECodeSnippetTitle" : "set UIView frame Y with QMUI CGRectSetY",
+      "IDECodeSnippetContents" : "<#view#>.frame = CGRectSetY(<#view#>.frame, <#y#>);",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetIdentifier" : "B5531524-A9B1-4FC3-AB9C-81C93EA6F201"
+    },
+    {
+      "IDECodeSnippetContents" : "[<#button#> setTitle:@\"<#title#>\" forState:UIControlStateNormal];",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "setTitleForButton",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "set UIButton Title",
+      "IDECodeSnippetIdentifier" : "23208581-6DAE-46C3-BCE0-35025AFDCB62"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "+ (instancetype)sharedInstance {\n    static dispatch_once_t onceToken;\n    static <#class name#> *instance = nil;\n    dispatch_once(&onceToken, ^{\n        instance = [[super allocWithZone:NULL] init];\n    });\n    return instance;\n}\n\n+ (id)allocWithZone:(struct _NSZone *)zone {\n    return [self sharedInstance];\n}",
+      "IDECodeSnippetCompletionPrefix" : "sharedInstance",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "sharedInstance",
+      "IDECodeSnippetIdentifier" : "26D03BCD-735E-4CFD-8E48-3DBA65BC70A1"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "initWithNib",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "97299DFC-3270-4449-89FC-30446EB10CC4",
+      "IDECodeSnippetTitle" : "initWithNib",
+      "IDECodeSnippetContents" : "- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {\n    if (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]) {\n        <##>\n    }\n    return self;\n}"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "numberOfItemsInSection",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "numberOfItemsInSection:",
+      "IDECodeSnippetIdentifier" : "101B0213-960B-478E-9D50-99EA39F3CC9F",
+      "IDECodeSnippetContents" : "- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {\n    return <#numberOfItemsInSection#>;\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "    \/\/MARK: UITableViewDelegate\n    \n    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {\n        \n    }\n    \n    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {\n        \n    }\n    \n    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {\n        \n    }\n    \n    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {\n        \n    }\n    \n    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {\n        \n    }\n    \n    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {\n        \n    }",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "183B54E8-CAE0-4C8F-B8B3-43E3965FDF1A",
+      "IDECodeSnippetCompletionPrefix" : "swift-uitableviewdelegate",
+      "IDECodeSnippetTitle" : "Swift UITableViewDelegate",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetSummary" : "UITableViewDelegate snippet for Swift",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetSummary" : "设置 navigationItem",
+      "IDECodeSnippetTitle" : "setupNavigationItems",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (void)setupNavigationItems {\n    [super setupNavigationItems];\n    self.title = @\"<##>\";\n}",
+      "IDECodeSnippetCompletionPrefix" : "setupNavigationItems",
+      "IDECodeSnippetIdentifier" : "DC0DDC5E-D32D-49BF-A61E-06403ADBB977",
+      "IDECodeSnippetPlatformFamily" : "iphoneos"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "作为局部变量的block定义",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "<#returnType#> (^<#blockName#>)(<#parameterTypes#>) = ^<#returnType#>(<#parameters#>) {\n            <#code#>\n        };",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "blockvar",
+      "IDECodeSnippetIdentifier" : "A403E0E0-2CE2-4A82-B921-BEE3F46DB93C"
+    },
+    {
+      "IDECodeSnippetContents" : "- (void)handle<#ControlName#>Event:(id)sender {\n    <#code#>\n}\n",
+      "IDECodeSnippetCompletionPrefix" : "fnv_handleEvent",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "53A49D67-CFF3-4449-AE38-B50E4F44529F",
+      "IDECodeSnippetTitle" : "创建UIControl的事件回调",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "typedef block",
+      "IDECodeSnippetSummary" : "block的typedef定义",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "blocktypedef",
+      "IDECodeSnippetIdentifier" : "80FEABC7-1C63-4C3F-A937-D0E3D8D04100",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "typedef <#returnType#> (^<#blockName#>)(<#arguments#>);",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetTitle" : "didInitializeWithStyle - QMUITableViewCell",
+      "IDECodeSnippetIdentifier" : "8D9C07CC-59C0-4411-A4D3-AB5758DC0901",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "didInitializeWithStyle_cell",
+      "IDECodeSnippetContents" : "- (void)didInitializeWithStyle:(UITableViewCellStyle)style {\n    [super didInitializeWithStyle:style];\n    <##>\n}",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swiftuicollectionviewdatasource",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "swiftuicollectionviewdatasource",
+      "IDECodeSnippetContents" : "func numberOfSections(in collectionView: UICollectionView) -> Int {\n  return <#count#>\n}\n\nfunc collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {\n  return <#count#>\n}\n\nfunc collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {\n  <#code#>\n}",
+      "IDECodeSnippetIdentifier" : "F932ECD9-8F67-4C60-98CF-071204B1FF17",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetContents" : "- (void)handlePanGestureRecognizer:(UIPanGestureRecognizer *)gestureRecognizer {\n    <#code#>\n}",
+      "IDECodeSnippetIdentifier" : "85908275-A2F1-49FA-8188-739CC7FF1BF5",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "创建pan手势事件回调",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "fnv_pan",
+      "IDECodeSnippetPlatformFamily" : "iphoneos"
+    },
+    {
+      "IDECodeSnippetContents" : "func numberOfComponents(in pickerView: UIPickerView) -> Int {\n  return <#count#>\n}\n\nfunc pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {\n  return <#count#>\n}",
+      "IDECodeSnippetIdentifier" : "221CE04F-5B1F-4A86-8EB3-52FAEF45CF0A",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "swiftuipickerviewdatasource",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "swiftuipickerviewdatasource",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "initWithStyle",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetIdentifier" : "E61F2B72-1DDE-42D9-A0CB-B713695C598E",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "UITableView -initWithStyle:",
+      "IDECodeSnippetContents" : "- (instancetype)initWithStyle:(UITableViewStyle)style {\n    if (self = [super initWithStyle:style]) {\n        <#code#>\n    }\n    return self;\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "addChildViewController",
+      "IDECodeSnippetIdentifier" : "51608015-7179-49F1-8CF7-4810CEF069E0",
+      "IDECodeSnippetContents" : "[self addChildViewController:<#childViewController#>];\n        [self.view addSubview:<#childViewController#>.view];\n        [<#childViewController#> didMoveToParentViewController:self];",
+      "IDECodeSnippetSummary" : "UIViewController addChildViewController:",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetTitle" : "addChildViewController",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "initWithStyleForCell",
+      "IDECodeSnippetTitle" : "initWithStyle:reuseIdentifier:",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "- (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier {\n    if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {\n        <#code#>\n    }\n    return self;\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetIdentifier" : "BF5695D8-5243-4DC2-8153-82B8858295AC",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetSummary" : "UITableViewCell的默认初始化方法"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "8F683F39-CAF9-4C8F-A82C-E990F83ABECF",
+      "IDECodeSnippetContents" : "private struct AssociatedKeys {\n    static var <#name#> = \"<#name#>\"\n  }\n\n  var <#name#>: String? {\n    get {\n      return objc_getAssociatedObject(self, &AssociatedKeys.<#name#>) as? String\n    }\n\n    set {\n      if let newValue = newValue {\n        objc_setAssociatedObject(self, &AssociatedKeys.<#name#>, newValue as String?,\n          .OBJC_ASSOCIATION_RETAIN_NONATOMIC\n        )\n      }\n    }\n  }",
+      "IDECodeSnippetCompletionPrefix" : "swiftassociatedobject",
+      "IDECodeSnippetTitle" : "swiftassociatedobject",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "static const reference",
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "static reference",
+      "IDECodeSnippetIdentifier" : "9365F43F-CDAB-444A-A5CD-D5E5CEAD614B",
+      "IDECodeSnippetContents" : "static <#type#> * const k<#name#> = <#value#>;"
+    },
+    {
+      "IDECodeSnippetTitle" : "loadView",
+      "IDECodeSnippetContents" : "- (void)loadView {\n    self.view = <#custom view#>;\n}",
+      "IDECodeSnippetIdentifier" : "94A53770-ED4C-4395-AB15-CCA346BF2904",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "loadView"
+    },
+    {
+      "IDECodeSnippetSummary" : "for-in loop that casts objects inline",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Swift for-in loop with casting",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "for case let <#object#> in <#collection#> as [<#Type#>] {\n    \n}",
+      "IDECodeSnippetIdentifier" : "48C9EB7D-A166-4781-8DC8-6961B57BDC02",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "swift-forin"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "exchange multiple method implementations in +load with QMUI",
+      "IDECodeSnippetContents" : "+ (void)load {\n    static dispatch_once_t onceToken;\n    dispatch_once(&onceToken, ^{\n        SEL selectors[] = {\n            @selector(<#selector name1#>),\n            @selector(<#selector name2#>)\n        };\n        for (NSUInteger index = 0; index < sizeof(selectors) \/ sizeof(SEL); index++) {\n            SEL originalSelector = selectors[index];\n            SEL swizzledSelector = NSSelectorFromString([@\"<#new method prefix#>_\" stringByAppendingString:NSStringFromSelector(originalSelector)]);\n            ExchangeImplementations([self class], originalSelector, swizzledSelector);\n        }\n    });\n}",
+      "IDECodeSnippetCompletionPrefix" : "exchangeMultipleImplementations_QMUI",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "A5AEA3D2-5AC9-4ACE-B1C4-075983619EFF",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetContents" : "- (void)viewDidLayoutSubviews {\n    [super viewDidLayoutSubviews];\n    <#code#>\n}",
+      "IDECodeSnippetIdentifier" : "494D85BB-30BB-434A-9383-2B0CAD69B785",
+      "IDECodeSnippetTitle" : "viewDidLayoutSubviews",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "viewDidLayoutSubviews"
+    },
+    {
+      "IDECodeSnippetTitle" : "UIAlertController",
+      "IDECodeSnippetSummary" : "Creates an alert controller with two actions",
+      "IDECodeSnippetContents" : "let alertController = UIAlertController(title: <#T##String?#>, message: <#T##String?#>, preferredStyle: <#T##UIAlertController.Style#>)\nlet firstAction = UIAlertAction(title: <#T##String?#>, style: .default, handler: <#T##((UIAlertAction) -> Void)?##((UIAlertAction) -> Void)?##(UIAlertAction) -> Void#>)\nlet cancelAction = UIAlertAction(title: <#T##String?#>, style: .cancel, handler: nil)\n\nalertController.addAction(firstAction)\nalertController.addAction(cancelAction)\npresent(alertController, animated: true)",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "snippetAlert",
+      "IDECodeSnippetIdentifier" : "8C458AD7-C631-457B-85CC-D2501E425D59",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "89D8ABD7-A0CB-45D6-B354-6BC718E2955A",
+      "IDECodeSnippetCompletionPrefix" : "swiftcheckplatform",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "#if os(iOS) || os(tvOS)\n    <#code#>\n#elseif os(watchOS)\n    <#code#>\n#elseif os(OSX)\n    <#code#>\n#endif",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetTitle" : "swiftcheckplatform",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetSummary" : "viewDidLoad",
+      "IDECodeSnippetCompletionPrefix" : "snippetViewDidLoad",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "viewDidLoad",
+      "IDECodeSnippetContents" : "override func viewDidLoad() {\n  super.viewDidLoad()\n}",
+      "IDECodeSnippetIdentifier" : "E9F203F3-98E1-4D99-801E-2E739E7792EB",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "psr",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "@property(nonatomic, strong, readonly) <#type#> *<#name#>;",
+      "IDECodeSnippetIdentifier" : "7673BB72-6355-4D45-B6D7-E36B4A79C835",
+      "IDECodeSnippetTitle" : "Property For Strong And Readonly",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetContents" : "guard let `self` = self else {\n  return\n}",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "FC0D62B1-F64B-47EB-A912-E0E6172B498A",
+      "IDECodeSnippetCompletionPrefix" : "swiftguardself",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "swiftguardself"
+    },
+    {
+      "IDECodeSnippetContents" : "- (void)viewDidLoad {\n    [super viewDidLoad];\n    <#code#>\n}",
+      "IDECodeSnippetTitle" : "viewDidLoad",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "viewDidLoad",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "2C6B159A-D934-44B7-B110-1BF1D4B89707"
+    },
+    {
+      "IDECodeSnippetContents" : "override func viewDidAppear(_ animated: Bool) {\n  super.viewDidAppear(animated)\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "DB36A35F-4295-460D-93DD-14BAD2166A2E",
+      "IDECodeSnippetTitle" : "viewDidAppear",
+      "IDECodeSnippetCompletionPrefix" : "snippetViewDidAppear",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetSummary" : "viewDidAppear"
+    },
+    {
+      "IDECodeSnippetContents" : "- (void)didInitializeWithStyle:(UITableViewStyle)style {\n    [super didInitializeWithStyle:style];\n    <##>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "B35A0A1F-EA35-4D3A-A579-5FA0E7DF2AA3",
+      "IDECodeSnippetTitle" : "didInitializeWithStyle - QMUICommonTableViewController",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "didInitializeWithStyle_tableView",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetTitle" : "weakSelf",
+      "IDECodeSnippetContents" : "__weak __typeof(self)weakSelf = self;",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "1AD3496A-7B93-4B60-9C5D-E54FC734E544",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "__weakSelf",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetIdentifier" : "BE7A7A16-BA79-45AF-A62B-869A12C1E257",
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetTitle" : "Property For Copy And Readonly",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "pcr",
+      "IDECodeSnippetContents" : "@property(nonatomic, copy, readonly) <#type#> *<#name#>;",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "IBOutlet",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "Stub out IBOutlet",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "@IBOutlet weak var <# OutletName #>: <# OutletType #>!",
+      "IDECodeSnippetCompletionPrefix" : "swift-ibo",
+      "IDECodeSnippetIdentifier" : "F0FAF3C5-71F4-4009-B09B-15FB3AE62C60"
+    },
+    {
+      "IDECodeSnippetTitle" : "CGRectGetMinX",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "getMinX",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetContents" : "CGRectGetMinX(<#CGRect rect#>)",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "1CDEB4B5-75D6-4F04-B8E6-BCEA1A54FE18"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (void)handleLongPressGestureRecognizer:(UILongPressGestureRecognizer *)gestureRecognizer {\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "fnv_longPress",
+      "IDECodeSnippetIdentifier" : "880C4894-BB6F-4C9C-8758-6185CE801894",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "创建longPress手势事件回调"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Extend Implementation Of Void Return Non Argument",
+      "IDECodeSnippetContents" : "ExtendImplementationOfVoidMethodWithoutArguments([<#targetClass#> class], @selector(<#targetSelector#>), ^(<#targetClass#> *selfObject) {\n        <#custom extend#>\n    });",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "61D9E89B-0189-4153-8FFA-7B8C2EE05F9D",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "extend_void_non_argv"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swift-sortarrayofstrings",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "Swift String Array locale-aware sorting",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetTitle" : "Swift String Array locale-aware sorting",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "B005E7A7-789D-43C2-873A-0DD8040EE2B8",
+      "IDECodeSnippetContents" : "<#arrayOfStrings#>.sorted { (a, b) -> Bool in\n            let comparisonResult = a.compare(b, options: [], range: a.range(of: a), locale: Locale.current)\n            return comparisonResult == .orderedSame\n        }"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "1528A53D-69CA-4A12-908A-1F85A47A8644",
+      "IDECodeSnippetSummary" : "Optional closure typealiast with arguments and return value snippet for Swift",
+      "IDECodeSnippetCompletionPrefix" : "swift-closureoptionaltypealias",
+      "IDECodeSnippetTitle" : "Swift optional closure typealias",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "typealias <#ClosureName#> = ((_ <#arguments#>: <#type#>) -> <#return value#>)?",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "Swift HTTP Request With Delegate set",
+      "IDECodeSnippetTitle" : "Swift URLSession With Delegate",
+      "IDECodeSnippetCompletionPrefix" : "swift-urlsession-delegate",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "let session = URLSession(configuration: .default, delegate: self, delegateQueue: nil)\nlet task = session.dataTask(with: <#request#>){ (data, response, error) in\n    <#code#>\n}\ntask.resume()\n",
+      "IDECodeSnippetIdentifier" : "B03099E0-1094-412E-BE86-5AC1BDB07315",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "sizeThatFits:",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (CGSize)sizeThatFits:(CGSize)size {\n    CGSize resultSize = size;\n    \n    CGFloat resultWidth = <#0#>;\n    resultSize.width = MIN(resultWidth, size.width);\n    \n    CGFloat resultHeight = <#0#>;\n    resultSize.height = resultHeight;\n    \n    return resultSize;\n}",
+      "IDECodeSnippetCompletionPrefix" : "sizeThatFits",
+      "IDECodeSnippetIdentifier" : "8BBED35F-461D-418F-A2E1-3CCF058B4814"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "创建一个返回值为空并且带参数的方法",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "- (void)<#method name#>:(<#argv type#>)<#argv#> {\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "36A99A40-AF77-4CCA-8FF3-E1587F48F239",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "fnv:"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n            return ^<#returnType#>(<#targetClass#> *selfObject, <#argumentType1#> firstArgv, <#argumentType2#> secondArgv) {\n                \n                \/\/ call super\n                <#returnType#> (*originSelectorIMP)(id, SEL, <#argumentType1#>, <#argumentType2#>);\n                originSelectorIMP = (<#returnType#> (*)(id, SEL, <#argumentType1#>, <#argumentType2#>))originalIMPProvider();\n                <#returnType#> result = originSelectorIMP(selfObject, originCMD, firstArgv, secondArgv);\n                \n                return <#custom override#>\n            };\n        });",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "override_return_two_argvs",
+      "IDECodeSnippetIdentifier" : "03686901-F803-4AB2-82AB-BD507D7403DB",
+      "IDECodeSnippetTitle" : "Override Implementation Of Non Void Return Two Arguments",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetTitle" : "Property For Strong",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "ps",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "C6CF2F16-53B9-4033-B217-89868A294BE8",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "@property(nonatomic, strong) <#type#> *<#name#>;"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "0E66F758-D976-483F-A71A-1B94A8ADA34A",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "setFrame_QMUI",
+      "IDECodeSnippetTitle" : "set UIView frame with QMUI CGRectFlatMake",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "<#view#>.frame = CGRectFlatMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>);"
+    },
+    {
+      "IDECodeSnippetContents" : "static char kAssociatedObjectKey_<#property name#>;\n- (void)set<#property name#> {\n    objc_setAssociatedObject(self, &kAssociatedObjectKey_<#property name#>, <#argument name#>, OBJC_ASSOCIATION_RETAIN_NONATOMIC);\n}\n\n- <#property getter#> {\n    return (<#Property type#> *)objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>);\n}",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "用swizzle方式创建strong类型的property的getter\/setter",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "propertySwizzleStrong",
+      "IDECodeSnippetIdentifier" : "11202851-7F95-4B80-9E01-ED9D300457E4",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "Extend Implementation Of Non Void Return Two Arguments",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetContents" : "ExtendImplementationOfNonVoidMethodWithTwoArguments([<#targetClass#> class], @selector(<#targetSelector#>), <#argumentType1#>, <#argumentType2#>, <#returnType#>, ^<#returnType#>(<#targetClass#> *selfObject, <#argumentType1#> firstArgv, <#argumentType2#> secondArgv, <#returnType#> originReturnValue) {\n            return <#custom extend#>;\n        });",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "extend_return_two_argvs",
+      "IDECodeSnippetIdentifier" : "DFCA59C1-07E0-4857-AE4D-3C9045016712"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swiftsubscript",
+      "IDECodeSnippetContents" : "subscript(<#name#>: <#type#>) -> <#type#> {\n    get {\n      return <#value#>\n    }\n    set(newValue) {\n        <#code#>\n    }\n  }",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "swiftsubscript",
+      "IDECodeSnippetIdentifier" : "F50B2DAE-E6B0-464E-9369-EFDAF86F8A82",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "@property(nonatomic, assign, readonly) <#type#> <#name#>;",
+      "IDECodeSnippetCompletionPrefix" : "par",
+      "IDECodeSnippetTitle" : "Property For Assign And Readonly",
+      "IDECodeSnippetIdentifier" : "32E2254E-F2F6-419B-B581-B6885C95A62B",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n            return ^(<#targetClass#> *selfObject, <#argumentType1#> firstArgv, <#argumentType2#> secondArgv) {\n                \n                \/\/ call super\n                void (*originSelectorIMP)(id, SEL, <#argumentType1#>, <#argumentType2#>);\n                originSelectorIMP = (void (*)(id, SEL, <#argumentType1#>, <#argumentType2#>))originalIMPProvider();\n                originSelectorIMP(selfObject, originCMD, firstArgv, secondArgv);\n                \n                <#custom override#>\n            };\n        });",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "override_void_two_argvs",
+      "IDECodeSnippetTitle" : "Override Implementation Of Void Return Two Arguments",
+      "IDECodeSnippetIdentifier" : "BD790850-4DC6-4F53-AAB1-FF21AAE2BE74",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swift-elegantmark",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetSummary" : "Decorates mark statements and makes it neat when looking through items in File Jump Bar",
+      "IDECodeSnippetIdentifier" : "76C4B4B4-1F7D-41D8-9CE2-0E4E36C668D0",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "\n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n\/\/MARK:-\n\/\/MARK:<#Section#>\n\/\/MARK:-\n\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\n",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Generic",
+      "IDECodeSnippetTitle" : "Elegant Mark"
+    },
+    {
+      "IDECodeSnippetTitle" : "Extend Implementation Of Void Return Single Argument",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "extend_void_single_argv",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "646E8309-8AE3-4E5B-BBBD-744958FBA30E",
+      "IDECodeSnippetContents" : "ExtendImplementationOfVoidMethodWithSingleArgument([<#targetClass#> class], @selector(<#targetSelector#>), <#argumentType#>, ^(<#targetClass#> *selfObject, <#argumentType#> firstArgv) {\n        <#custom extend#>\n    });",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetIdentifier" : "BCBDF4CD-8EAD-48F7-A96A-8A48C188D1C2",
+      "IDECodeSnippetTitle" : "numberOfSectionsInCollectionView:",
+      "IDECodeSnippetContents" : "- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {\n    return <#numberOfSections#>;\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "numberOfSectionsInCollectionView",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "用swizzle方式创建weak类型的property的getter\/setter",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "propertySwizzleWeak",
+      "IDECodeSnippetIdentifier" : "B696ADA0-4026-4954-A454-8B7B2FCE40BF",
+      "IDECodeSnippetContents" : "static char kAssociatedObjectKey_<#property name#>;\n- (void)set<#property name#> {\n    objc_setAssociatedObject(self, &kAssociatedObjectKey_<#property name#>, <#argument name#>, OBJC_ASSOCIATION_ASSIGN);\n}\n\n- <#property getter#> {\n    return (<#Property type#> *)objc_getAssociatedObject(self, &kAssociatedObjectKey_<#property name#>);\n}",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "Swift MFMessageComposeViewController",
+      "IDECodeSnippetIdentifier" : "3165F25A-E44B-4165-A15B-F04A47A0853D",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "    \/\/MARK: MFMessageComposeViewController\n\n    func presentModalMessageComposeViewController(animated: Bool) {\n        if MFMessageComposeViewController.canSendText() {\n            let messageComposeVC = MFMessageComposeViewController()\n\n            messageComposeVC.messageComposeDelegate = <#delegate#>\n            messageComposeVC.body = \"<#body#>\"\n            messageComposeVC.recipients = [<#recipients#>]\n\n            present(messageComposeVC, animated: animated, completion: nil)\n\n        } else {\n            let alert = UIAlertController(title: NSLocalizedString(\"Error\", value: \"Error\", comment: \"\"),\n                              message: NSLocalizedString(\"Your device doesn't support messaging\", value: \"Your device doesn't support  messaging\", comment: \"\"),\n                              preferredStyle: .alert)\n            alert.addAction(UIAlertAction(title: NSLocalizedString(\"Cancel\", comment: \"Cancel\"), style: .cancel, handler: nil))\n            present(alert, animated: true, completion: nil)\n        }\n    }\n\n    func messageComposeViewController(controller: MFMessageComposeViewController!, didFinishWithResult result: MessageComposeResult) {\n        dismiss(animated: true)\n    }",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "swift-message",
+      "IDECodeSnippetSummary" : "MFMessageComposeViewController snippet for Swift"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "didSelectItemAtIndexPath",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetTitle" : "didSelectItemAtIndexPath:",
+      "IDECodeSnippetIdentifier" : "0790FF6C-A6AE-496F-B7E9-2C12432156EC",
+      "IDECodeSnippetContents" : "- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "snippetUserDefaultsVariable",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "A1519E53-062C-4761-A37B-808C752046C1",
+      "IDECodeSnippetTitle" : "snippetUserDefaultsVariable",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetContents" : "var <#name#>: <#Type#> {\n  get {\n    return <#method#>(forKey: #function)\n  }\n  set {\n    set(newValue, forKey: #function)\n  }\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "Add a variable of any Type to UserDefaults",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "override_void_non_argv",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "3E175A3D-A137-4744-9754-2A28B66E20A1",
+      "IDECodeSnippetTitle" : "Override Implementation Of Void Return Non Argument",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n        return ^(<#targetClass#> *selfObject) {\n            \n            \/\/ call super\n            void (*originSelectorIMP)(id, SEL);\n            originSelectorIMP = (void (*)(id, SEL))originalIMPProvider();\n            originSelectorIMP(selfObject, originCMD);\n            \n            <#custom override#>\n        };\n    });"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "layoutSubviews",
+      "IDECodeSnippetContents" : "- (void)layoutSubviews {\n    [super layoutSubviews];\n    <#code#>\n}",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "layoutSubviews",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "1795B602-AC2C-46C8-900F-7157C26857EC",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetTitle" : "updateConstraints",
+      "IDECodeSnippetCompletionPrefix" : "updateConstraints",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "- (void)updateConstraints {\n    <#code#>\n    [super updateConstraints];\n}",
+      "IDECodeSnippetIdentifier" : "6D8F1F97-6FDD-44F6-890D-BD590F3C5F8D",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetContents" : "    \/\/MARK: UIViewController lifecycle\n    \n    override func viewDidLoad() {\n        super.viewDidLoad()\n        \n    }\n    \n    override func viewWillAppear(_ animated: Bool) {\n        super.viewWillAppear(animated)\n\n    }\n    \n    override func viewDidAppear(_ animated: Bool) {\n        super.viewDidAppear(animated)\n\n    }\n    \n    override func viewWillDisappear(_ animated: Bool) {\n        super.viewWillDisappear(animated)\n\n    }\n    \n    override func viewDidDisappear(_ animated: Bool) {\n        super.viewDidDisappear(animated)\n\n    }",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "swift-uiviewcontrollerlifecycle",
+      "IDECodeSnippetTitle" : "Swift UIViewController lifecycle",
+      "IDECodeSnippetIdentifier" : "7D773810-8010-450A-B8A1-E66A92969E25",
+      "IDECodeSnippetSummary" : "UIViewController lifecycle snippet for Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "viewWillAppear",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "viewWillAppear:",
+      "IDECodeSnippetContents" : "- (void)viewWillAppear:(BOOL)animated {\n    [super viewWillAppear:animated];\n    <#code#>\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "F9DAF84E-4DCA-4AEB-B90D-16B40624932B"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "56A38ADE-F1BD-4B31-81B5-EE230595C776",
+      "IDECodeSnippetCompletionPrefix" : "override_return_single_argv",
+      "IDECodeSnippetTitle" : "Override Implementation Of Non Void Return Single Argument",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n        return ^<#returnType#>(<#targetClass#> *selfObject, <#argumentType#> firstArgv) {\n            \n            \/\/ call super\n            <#returnType#> (*originSelectorIMP)(id, SEL, <#argumentType#>);\n            originSelectorIMP = (<#returnType#> (*)(id, SEL, <#argumentType#>))originalIMPProvider();\n            <#returnType#> result = originSelectorIMP(selfObject, originCMD, firstArgv);\n            \n            return <#custom override#>\n        };\n    });"
+    },
+    {
+      "IDECodeSnippetContents" : "    \/\/MARK: UICollectionViewDelegate\n    \n    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {\n        \n    }\n    \n    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {\n        \n    }",
+      "IDECodeSnippetCompletionPrefix" : "swift-uicollectionviewdelegate",
+      "IDECodeSnippetSummary" : "UICollectionViewDelegate snippet for Swift",
+      "IDECodeSnippetTitle" : "Swift UICollectionViewDelegate",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "695424DE-F323-475A-AC77-2010DDA924BB",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "- (void)initSubviews {\n    [super initSubviews];\n    <#code#>\n}",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "initSubviews",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "initSubviews",
+      "IDECodeSnippetIdentifier" : "17B909FE-8769-4CD4-9C0E-5888E770FF00"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetContents" : "if (@available(iOS 11, *)) {\n        self.tableView.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentNever;\n    } else {\n        self.automaticallyAdjustsScrollViewInsets = NO;\n    }",
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetCompletionPrefix" : "tableView_scrollNever",
+      "IDECodeSnippetIdentifier" : "4D8558EC-1D8E-4B11-9C69-50614951CA1F",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "UITableView Scroll Never",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetContents" : "static <#type#> const k<#Name#> = <#value#>;",
+      "IDECodeSnippetCompletionPrefix" : "static",
+      "IDECodeSnippetTitle" : "static const value",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "95ACDF4B-E74F-4A04-9774-8644C48E20DC",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "251667DB-792F-4BEF-81AC-4B4E6DFB4A6B",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "Extension to unwrap an optional SwiftUI binding safely (w. default value)",
+      "IDECodeSnippetContents" : "extension Binding {\n    func toUnwrapped<T>(defaultValue: T) -> Binding<T> where Value == T? {\n        Binding<T>(get: { self.wrappedValue ?? defaultValue }, set: { self.wrappedValue = $0 })\n    }\n}\n",
+      "IDECodeSnippetCompletionPrefix" : "bindingUnwrap",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "SwiftUI.Binding.toUnwrapped",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swiftinitcoder",
+      "IDECodeSnippetContents" : "public required init?(coder aDecoder: NSCoder) {\n    fatalError(\"init(coder:) has not been implemented\")\n  }",
+      "IDECodeSnippetTitle" : "swiftinitcoder",
+      "IDECodeSnippetIdentifier" : "3EB05EA7-4EDE-4480-A6C5-B15499A07B23",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Swift UIRemoteNotification",
+      "IDECodeSnippetIdentifier" : "0ADC5D4B-64A3-42B1-8A4D-5741D99D0714",
+      "IDECodeSnippetContents" : "    \/\/MARK: Remote Notifications\n    \n    \/\/ Move this line somewhere where your app starts\n\/\/    UIApplication.shared.registerForRemoteNotifications()\n    \n    \/\/ Ask user for allowed notification types\n\/\/\t  let settings = UIUserNotificationSettings(types: [.alert, .badge, .sound], categories: nil)\n\/\/\t  UIApplication.shared.registerUserNotificationSettings(settings)\n    \n    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {\n        print(\"Successfully egistered for Remote Notifications with token: \\(deviceToken)\")\n    }\n    \n    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {\n        print(\"Registration for Remote Notifications failed with error: \\(error)\")\n    }\n    \n    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {\n        \n    }",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swift-uiremotenotification",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetSummary" : "UIRemoteNotification registration and handling snippet for Swift",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetTitle" : "extern Value in *.h file",
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "externValueInH",
+      "IDECodeSnippetContents" : "extern const <#type#> <#name#>;",
+      "IDECodeSnippetIdentifier" : "3F020BCC-5E6C-4538-A470-1E124BB4DBAE",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetSummary" : ""
+    },
+    {
+      "IDECodeSnippetIdentifier" : "5A3AB4AB-26DC-4402-BE47-D87BF8D620E0",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "[UIBarButtonItem qmui_itemWithBoldTitle:<#(nullable NSString *)#> target:self action:@selector(<#selector name#>)];",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetTitle" : "Bold Title UIBarButtonItem",
+      "IDECodeSnippetCompletionPrefix" : "boldTitleItem"
+    },
+    {
+      "IDECodeSnippetTitle" : "Swift Mark:",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetSummary" : "Divider label for separating code into sections",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "7329708D-DA17-4129-A8F9-A780DFA5FAE1",
+      "IDECodeSnippetCompletionPrefix" : "swift-mark",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "\/\/ MARK: - <#Section#>",
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel",
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "- (void)viewDidAppear:(BOOL)animated {\n    [super viewDidAppear:animated];\n    <#code#>\n}",
+      "IDECodeSnippetIdentifier" : "A9456DBA-B19F-41E2-B5E5-9928DAF8CCFE",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "viewDidAppear:",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "viewDidAppear"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "DA8B025D-2EEA-4917-98FA-6ED8DCA1ED2B",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "UIApplicationDidBecomeActiveNotification observer snippet for Swift",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swift-didbecomeactive",
+      "IDECodeSnippetContents" : "NotificationCenter.default.addObserver(self, selector: #selector(<#selector#>), name: NSNotification.Name.UIApplicationDidBecomeActive, object: nil)",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Swift add DidBecomeActive notification observer",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ]
+    },
+    {
+      "IDECodeSnippetContents" : "override func viewDidDisappear(_ animated: Bool) {\n  super.viewDidDisappear(animated)\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "viewDidDisappear",
+      "IDECodeSnippetCompletionPrefix" : "snippetViewDidDisappear",
+      "IDECodeSnippetSummary" : "viewDidDisappear",
+      "IDECodeSnippetIdentifier" : "F207F44C-10DF-4827-96FC-47D4A70D147A",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swift-urlsession-datatask",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetSummary" : "Swift Simple HTTP Request",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetContents" : "let session = URLSession.shared\nlet task = session.dataTask(with: <#request#>){ (data, response, error) in\n    <#code#>\n}\ntask.resume()\n",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "DCE70F58-6A51-4C26-AF88-2F646406A746",
+      "IDECodeSnippetTitle" : "Swift URLSession DataTask"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "extend_return_single_argv",
+      "IDECodeSnippetContents" : "ExtendImplementationOfNonVoidMethodWithSingleArgument([<#targetClass#> class], @selector(<#targetSelector#>), <#argumentType#>, <#returnType#>, ^<#returnType#>(<#targetClass#> *selfObject, <#argumentType#> firstArgv, <#returnType#> originReturnValue) {\n        return <#custom extend#>;\n    });",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "D96EBFBE-EA27-4210-B9D4-8172B875559A",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Extend Implementation Of Non Void Return Single Argument",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetContents" : "- (<#returnType#> (^)(<#parameterTypes#>))<#method name#> {\n    <#code#>\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "2967221D-E2CF-4AB4-9F96-FABDDC747F4F",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "创建一个返回值为block类型的方法",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionPrefix" : "fnblock"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Generic",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "snippetMarksModel",
+      "IDECodeSnippetContents" : "\/\/ MARK: - Attributes\n\n\/\/ MARK: - Initializers\n\n\/\/ MARK: - Parsers",
+      "IDECodeSnippetSummary" : "MARKs to use in your model or entity",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "11BC8CB4-A716-4E24-AEB8-B5A312FF56D7",
+      "IDECodeSnippetTitle" : "Model MARKs"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetTitle" : "Property For Weak And Readonly",
+      "IDECodeSnippetCompletionPrefix" : "pwr",
+      "IDECodeSnippetIdentifier" : "3BDAAACA-931A-43D6-B7B4-A446285E098B",
+      "IDECodeSnippetContents" : "@property(nonatomic, weak, readonly) <#type#> *<#name#>;",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "osif",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetContents" : "if (@available(iOS <#15.0#>, *)) {\n    <#statements#>\n}\n",
+      "IDECodeSnippetTitle" : "@available iOS",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "EABDAB9C-966F-4442-B386-DFBAC52FF6D9",
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetContents" : "OverrideImplementation([<#targetClass#> class], @selector(<#targetSelector#>), ^id(__unsafe_unretained Class originClass, SEL originCMD, IMP (^originalIMPProvider)(void)) {\n    return ^<#returnType#>(<#targetClass#> *selfObject) {\n        \/\/ call super\n        <#returnType#> (*originSelectorIMP)(id, SEL);\n        originSelectorIMP = (<#returnType#> (*)(id, SEL))originalIMPProvider();\n        <#returnType#> result = originSelectorIMP(selfObject, originCMD);\n        \n        return <#custom override#>\n    };\n});",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "override_return_non_argv",
+      "IDECodeSnippetIdentifier" : "728398A0-1FA7-4753-9456-7F071139D57D",
+      "IDECodeSnippetTitle" : "Override Implementation Of Non Void Return Non Argument"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "blockproperty",
+      "IDECodeSnippetTitle" : "Property For Block",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "B84470B1-B180-401B-8C53-43390D9124DA",
+      "IDECodeSnippetContents" : "@property(nonatomic, copy) <#returnType#> (^<#blockName#>)(<#parameterTypes#>);",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetContents" : "<#type#> *const <#name#> = <#value#>;",
+      "IDECodeSnippetCompletionPrefix" : "externRefInM",
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "05ACBB91-A78D-402C-807A-47886AD29A07",
+      "IDECodeSnippetTitle" : "extern Reference in *.m file",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetContents" : "[UIBarButtonItem qmui_closeItemWithTarget:self action:@selector(<#selector name#>)];",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetIdentifier" : "F68179BA-29CA-48D0-8F20-54CE21E05920",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Generic",
+      "IDECodeSnippetTitle" : "Close UIBarButtonItem",
+      "IDECodeSnippetCompletionPrefix" : "closeItem"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "log",
+      "IDECodeSnippetContents" : "NSLog(@\"<##>\");",
+      "IDECodeSnippetCompletionScopes" : [
+        "All",
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetSummary" : "",
+      "IDECodeSnippetTitle" : "NSLog",
+      "IDECodeSnippetIdentifier" : "357607DE-337B-4943-8F27-9CA1EE722BF7"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swiftdispatchonce",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "7E57ADC5-F0B2-4AD8-B879-238EBFE8957D",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetContents" : "let <#name#>: <#type#> = {\n  return <#code#>\n}()",
+      "IDECodeSnippetTitle" : "swiftdispatchonce"
+    },
+    {
+      "IDECodeSnippetContents" : "NotificationCenter.default.post(name: <#T##NSNotification.Name#>, object: <#T##Any?#>, userInfo: <#T##[AnyHashable : Any]?#>)",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "6ADFF0B1-2CC7-4FFC-9414-3A4722374D50",
+      "IDECodeSnippetTitle" : "Post notification",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "Posts a notification with NSNotification.Name, object and userInfo",
+      "IDECodeSnippetCompletionPrefix" : "snippetPostObserver",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetTitle" : "set UIView frame XY with QMUI CGRectSetXY",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "<#view#>.frame = CGRectSetXY(<#view#>.frame, <#x#>, <#y#>);",
+      "IDECodeSnippetCompletionPrefix" : "setFrameXY",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "29616EC2-81E1-4AF5-8AD9-96DEED51B264",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetContents" : "CFTimeInterval startTime = CACurrentMediaTime();\n<#code here#>\nCFTimeInterval endTime = CACurrentMediaTime();\nCFTimeInterval consumingTime = endTime - startTime;\nNSLog(@\"耗时：%@\", @(consumingTime));",
+      "IDECodeSnippetCompletionPrefix" : "timeConsuming",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "F03D957F-693E-464B-B5EE-579E045B81C1",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "耗时计算"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "<#view#>.frame = CGRectMake(<#CGFloat x#>, <#CGFloat y#>, <#CGFloat width#>, <#CGFloat height#>)",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetTitle" : "set Frame",
+      "IDECodeSnippetIdentifier" : "55D23AA0-FB1C-46D5-898A-E83791641D1C",
+      "IDECodeSnippetCompletionPrefix" : "setFrame",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetSummary" : "用来写 exchange implementations 的 load 方法模板",
+      "IDECodeSnippetContents" : "+ (void)load {\n    static dispatch_once_t onceToken;\n    dispatch_once(&onceToken, ^{\n        Class class = [self class];\n        SEL originSelector = @selector(<#origin selector#>);\n        SEL newSelector = @selector(<#new selector#>);\n        Method oriMethod = class_getInstanceMethod(class, originSelector);\n        Method newMethod = class_getInstanceMethod(class, newSelector);\n        if (newMethod) {\n            BOOL isAddedMethod = class_addMethod(class, originSelector, method_getImplementation(newMethod), method_getTypeEncoding(newMethod));\n            if (isAddedMethod) {\n                IMP oriMethodIMP = method_getImplementation(oriMethod) ?: imp_implementationWithBlock(^(id selfObject) {});\n                const char *oriMethodTypeEncoding = method_getTypeEncoding(oriMethod) ?: \"v@:\";\n                class_replaceMethod(class, newSelector, oriMethodIMP, oriMethodTypeEncoding);\n            } else {\n                method_exchangeImplementations(oriMethod, newMethod);\n            }\n        }\n    });\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetTitle" : "exchange method implementations in +load",
+      "IDECodeSnippetCompletionPrefix" : "exchangeImplementation",
+      "IDECodeSnippetIdentifier" : "0219854F-3A75-483E-9F4A-EFA34646365E",
+      "IDECodeSnippetUserSnippet" : true
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "AC95589F-A1AE-4D8B-A753-4F6D9C5DBBE3",
+      "IDECodeSnippetCompletionPrefix" : "fnv_tap",
+      "IDECodeSnippetContents" : "- (void)handleTapGestureRecognizer:(UITapGestureRecognizer *)gestureRecognizer {\n    <#code#>\n}",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "创建tap手势事件回调",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetSummary" : "Creates a singleton class with a private init",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "class <#SingletonClassName#> {\n  static let shared = <#SingletonClassName#>()\n    \n  private init() {}\n}",
+      "IDECodeSnippetCompletionPrefix" : "snippetSingleton",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Singleton class",
+      "IDECodeSnippetIdentifier" : "3BE9278C-FB49-4D9F-AD5B-E61435D6DCA9",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionPrefix" : "swift-mail",
+      "IDECodeSnippetIdentifier" : "449FB7DE-54FE-4AFA-94AB-F7401AB5A5C8",
+      "IDECodeSnippetTitle" : "Swift MFMailComposeViewController",
+      "IDECodeSnippetContents" : "    \/\/MARK: MFMailComposeViewController\n\n    func presentModalMailComposerViewController(animated: Bool) {\n        if MFMailComposeViewController.canSendMail() {\n            let mailComposeVC = MFMailComposeViewController()\n            mailComposeVC.delegate = <#delegate#>\n\n            mailComposeVC.setSubject(<#subject#>)\n            mailComposeVC.setMessageBody(<#body#>, isHTML: true)\n            mailComposeVC.setToRecipients([<#recipients#>])\n\n            present(mailComposeVC, animated: animated, completion: nil)\n        } else {\n            let alert = UIAlertController(title: NSLocalizedString(\"Error\", value: \"Error\", comment: \"\"),\n                              message: NSLocalizedString(\"Your device doesn't support Mail messaging\", value: \"Your device doesn't support Mail messaging\", comment: \"\"),\n                              preferredStyle: .alert)\n            alert.addAction(UIAlertAction(title: NSLocalizedString(\"Cancel\", comment: \"Cancel\"), style: .cancel, handler: nil))\n            present(alert, animated: true, completion: nil)\n        }\n    }\n\n    \/\/MARK: MFMailComposeViewControllerDelegate\n\n    func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {\n\n        if error != nil {\n            print(\"Error: \\(error)\")\n        }\n\n        dismiss(animated: true)\n    }",
+      "IDECodeSnippetSummary" : "MFMailComposeViewController snippet for Swift",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "externRefInH",
+      "IDECodeSnippetIdentifier" : "21FDCAF1-C5B5-4F0C-A9EE-895654127294",
+      "IDECodeSnippetTitle" : "extern Reference in *.h file",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "extern <#type#> *const <#name#>;",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ]
+    },
+    {
+      "IDECodeSnippetSummary" : "Commonly used app life cycle methods",
+      "IDECodeSnippetCompletionPrefix" : "swift-uiapplicationdelegate",
+      "IDECodeSnippetIdentifier" : "CB10B10E-410C-4668-8B94-4322438AE77B",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Swift - UIApplication Delegate methods",
+      "IDECodeSnippetContents" : "func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {\n\n        return true\n    }\n    \n    func applicationWillResignActive(_ application: UIApplication) {\n        \n    }\n    \n    func applicationDidBecomeActive(_ application: UIApplication) {\n        \n    }\n    \n    func applicationWillEnterForeground(_ application: UIApplication) {\n        \n    }\n    \n    func applicationDidEnterBackground(_ application: UIApplication) {\n        \n    }\n    \n    func applicationWillTerminate(_ application: UIApplication) {\n        \n    }",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ]
+    },
+    {
+      "IDECodeSnippetSummary" : "Create IBAction method stub",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "swift-iba",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetTitle" : "IBAction",
+      "IDECodeSnippetIdentifier" : "A913F681-E983-4127-B303-EDAC5EDD48AA",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : " @IBAction func <# FuncName #>(_ sender: AnyObject) {\n        <# code #>\n    }"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "blockParameterInFunction",
+      "IDECodeSnippetIdentifier" : "F0EEA7C4-643E-4347-BE1C-762B578B6929",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "block as C function parameter",
+      "IDECodeSnippetSummary" : "C函数参数里的 block 声明",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetContents" : "<#returnType#> (^<#blockName#>)(<#parameterTypes#>)"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "swift-uicollectionviewdatasource",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "5871FA36-D43A-4505-897B-B2D54B4C611B",
+      "IDECodeSnippetSummary" : "UICollectionViewDataSource snippet for Swift",
+      "IDECodeSnippetContents" : "        \/\/MARK: UICollectionViewDataSource\n\n        func numberOfSections(in collectionView: UICollectionView) -> Int {\n            return <#numberOfSections#>\n        }\n\t\n        func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {\n\t    \/\/ TODO:- Required Method\n            return <#numberOfItems#>\n        }\n\n\tfunc collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {\n            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: <#identifier#>, for: indexPath)\n            configureCell(cell: cell, forItemAt: indexPath)\n\t    \/\/ TODO:- Required Method\n            return cell\n        }\n\n        func configureCell(cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {\n\n        }\n\n        func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {\n            let view = collectionView.dequeueReusableSupplementaryView(ofKind: UICollectionElementKindSectionHeader, withReuseIdentifier: <#identifier#>, for: indexPath)\n            return view\n        }",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "Swift UICollectionViewDataSource",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "22751980-797F-4ED0-8729-EB822E3C23A4",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "updateViewConstraints",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "updateViewConstraints",
+      "IDECodeSnippetContents" : "- (void)updateViewConstraints {\n    <#code#>\n    [super updateViewConstraints];\n}"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "swiftcheckversion",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "swiftcheckversion",
+      "IDECodeSnippetContents" : "#if swift(>=3.0)\n        <#code#>\n    #elseif swift(>=2.2)\n        <#code#>\n    #elseif swift(>=2.1)\n        <#code#>\n    #endif",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetIdentifier" : "BFAE611C-AD34-48C0-9910-0A3F883DE3B5"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetIdentifier" : "6CD5E87E-5EB3-4F2E-9C87-81F5BA9EA5FC",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "@property(nonatomic, weak) <#type#> *<#name#>;",
+      "IDECodeSnippetCompletionPrefix" : "pw",
+      "IDECodeSnippetTitle" : "Property For Weak"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "4F4AC178-5A4C-4AB2-B08D-6549243282F7",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "swiftavailable",
+      "IDECodeSnippetTitle" : "swiftavailable",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetContents" : "@available(iOS 7, *)",
+      "IDECodeSnippetPlatformFamily" : "all"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "UICollectionViewDelegate",
+      "IDECodeSnippetCompletionPrefix" : "collectionViewDelegate",
+      "IDECodeSnippetContents" : "- (NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView {\n    return <#numberOfSections#>;\n}\n\n- (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {\n    return <#numberOfItemsInSection#>;\n}\n\n- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {\n    \n    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:<#reuseIdentifier#> forIndexPath:indexPath];\n    \n    <#code#>\n    \n    return cell;\n}",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetIdentifier" : "880149F5-CC79-4CBB-B879-33C44C90C226",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "iphoneos"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "rac_kvo",
+      "IDECodeSnippetContents" : "[RACObserve(<#object#>, <#property#>) subscribeNext:^(id x) {\n            <##>\n        }];",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "RAC KVO Observe",
+      "IDECodeSnippetIdentifier" : "BEBAED0D-8043-4BFA-9ED6-75524C49E23B",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C"
+    },
+    {
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetContents" : "+ (void)load {\n    static dispatch_once_t onceToken;\n    dispatch_once(&onceToken, ^{\n        <##>\n    });\n}",
+      "IDECodeSnippetTitle" : "load dispatch once",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "9A2482AB-93D8-457A-8D67-221379784E4A",
+      "IDECodeSnippetCompletionPrefix" : "load_once"
+    },
+    {
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetContents" : "<#view#>.frame = CGRectSetX(<#view#>.frame, <#x#>);",
+      "IDECodeSnippetCompletionPrefix" : "setFrameX",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "5BEF295B-A1FA-4AEB-8148-C9E14BD56B43",
+      "IDECodeSnippetTitle" : "set UIView frame X with QMUI CGRectSetX"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "1063BE8C-95DF-44E4-B09A-60EAC0047FCC",
+      "IDECodeSnippetTitle" : "extern Value in *.m file",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "externValueInM",
+      "IDECodeSnippetContents" : "const <#type#> <#name#> = <#value#>;",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "TopLevel"
+      ]
+    },
+    {
+      "IDECodeSnippetTitle" : "CGRectGetWidth",
+      "IDECodeSnippetContents" : "CGRectGetWidth(<#CGRect rect#>)",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetIdentifier" : "85AFEEE5-547B-4995-8E1D-03EF58452DE2",
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetCompletionPrefix" : "getWidth"
+    },
+    {
+      "IDECodeSnippetIdentifier" : "D0964789-8FAA-4A94-8E5B-D5178137F102",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionPrefix" : "swift-singleton",
+      "IDECodeSnippetTitle" : "Swift Singleton",
+      "IDECodeSnippetSummary" : "Singleton pattern for Swift",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetContents" : "static let shared : <#SingletonClass#> = <#SingletonClass#>()"
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "8B578048-CFFE-46DF-BB25-3DF5382557DB",
+      "IDECodeSnippetTitle" : "dispatch async main queue",
+      "IDECodeSnippetContents" : "dispatch_async(dispatch_get_main_queue(), ^{\n        <##>\n    });",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ],
+      "IDECodeSnippetCompletionPrefix" : "dispatch_async_main"
+    },
+    {
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetTitle" : "Swift UITableViewDataSource",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetContents" : "        \/\/MARK: UITableViewDataSource\n\n        func numberOfSections(in tableView: UITableView) -> Int {\n            return <#numberOfSections#>\n        }\n\n        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {\n            return <#numberOfRows#>\n        }\n\n        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {\n            let cell = tableView.dequeueReusableCell(withIdentifier: <#identifier#>, for: indexPath)\n            configureCell(cell: cell, forRowAt: indexPath)\n            return cell\n        }\n\n        func configureCell(cell: UITableViewCell, forRowAt indexPath: IndexPath) {\n\n        }",
+      "IDECodeSnippetCompletionPrefix" : "swift-uitableviewdatasource",
+      "IDECodeSnippetSummary" : "UITableViewDataSource snippet for Swift",
+      "IDECodeSnippetIdentifier" : "380DBCD1-ECFB-4A8C-B7B2-DDE628A540E3"
+    },
+    {
+      "IDECodeSnippetTitle" : "Add observer",
+      "IDECodeSnippetContents" : "NotificationCenter.default.addObserver(<#T##observer: Any##Any#>, selector: <#T##Selector#>, name: <#T##NSNotification.Name?#>, object: <#T##Any?#>)",
+      "IDECodeSnippetPlatformFamily" : "all",
+      "IDECodeSnippetIdentifier" : "6C261186-38AD-4EEF-A73C-8A25EBB2B31A",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetSummary" : "Creates an observer with selector, NSNotification.Name and object",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Swift",
+      "IDECodeSnippetCompletionPrefix" : "snippetAddObserver",
+      "IDECodeSnippetCompletionScopes" : [
+        "All"
+      ]
+    },
+    {
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "7AAC0412-41B1-4200-815D-CD1ED79A05E0",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetTitle" : "cellForItemAtIndexPath:",
+      "IDECodeSnippetCompletionPrefix" : "cellForItemAtIndexPath",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetContents" : "- (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {\n    \n    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:<#reuseIdentifier#> forIndexPath:indexPath];\n    \n    <#code#>\n    \n    return cell;\n}"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "heightForRowAtIndexPath",
+      "IDECodeSnippetContents" : "- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {\n    return <#heightForRow#>;\n}",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetIdentifier" : "0240A193-5CFE-4805-9006-82DBFD69741F",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetCompletionScopes" : [
+        "ClassImplementation"
+      ],
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetTitle" : "heightForRowAtIndexPath:"
+    },
+    {
+      "IDECodeSnippetCompletionPrefix" : "setTitleColorForButton",
+      "IDECodeSnippetLanguage" : "Xcode.SourceCodeLanguage.Objective-C",
+      "IDECodeSnippetPlatformFamily" : "iphoneos",
+      "IDECodeSnippetUserSnippet" : true,
+      "IDECodeSnippetCompletionScopes" : [
+        "CodeBlock"
+      ],
+      "IDECodeSnippetContents" : "[<#button#> setTitleColor:<#color#> forState:UIControlStateNormal];",
+      "IDECodeSnippetTitle" : "set UIButton Title Color",
+      "IDECodeSnippetIdentifier" : "FFCD7C84-551D-467B-938D-BB0B2E9A31AF"
+    }
+  ]
+}

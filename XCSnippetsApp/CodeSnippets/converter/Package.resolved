@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "xcsnippets",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/MarcoEidinger/XCSnippets",
+      "state" : {
+        "revision" : "1c0b1953e0cf09b16e2af973f6f9a2ddeaf2ca18",
+        "version" : "1.1.0"
+      }
+    }
+  ],
+  "version" : 2
+}

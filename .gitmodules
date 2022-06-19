@@ -1,0 +1,15 @@
+[submodule "XCSnippetsApp/CodeSnippets/XcodeSwiftSnippets"]
+	path = XCSnippetsApp/CodeSnippets/XcodeSwiftSnippets
+	url = git@github.com:burczyk/XcodeSwiftSnippets.git
+[submodule "XCSnippetsApp/CodeSnippets/QMUI_iOS_CodeSnippets"]
+	path = XCSnippetsApp/CodeSnippets/QMUI_iOS_CodeSnippets
+	url = git@github.com:QMUI/QMUI_iOS_CodeSnippets.git
+[submodule "XCSnippetsApp/CodeSnippets/SwiftSnippets"]
+	path = XCSnippetsApp/CodeSnippets/SwiftSnippets
+	url = git@github.com:onmyway133/SwiftSnippets.git
+[submodule "XCSnippetsApp/CodeSnippets/ios-xcode-snippets"]
+	path = XCSnippetsApp/CodeSnippets/ios-xcode-snippets
+	url = git@github.com:mjurfest/ios-xcode-snippets.git
+[submodule "XCSnippetsApp/CodeSnippets/me.codesnippet"]
+	path = XCSnippetsApp/CodeSnippets/me.codesnippet
+	url = git@github.com:MarcoEidinger/me.codesnippet.git

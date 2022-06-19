@@ -88,3 +88,9 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+
+# Custom
+
+XCSnippetsApp/CodeSnippets/Collection
+XCSnippetsApp/CodeSnippets/converter/.build
+XCSnippetsApp/CodeSnippets/converter/.swiftpm

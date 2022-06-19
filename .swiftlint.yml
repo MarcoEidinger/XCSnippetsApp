@@ -1,0 +1,10 @@
+disabled_rules:
+ - opening_brace
+ - line_length
+ - trailing_comma
+
+included:
+  - XCSnippetsApp
+
+excluded:
+  - XCSnippetsApp/CodeSnippets/converter/
