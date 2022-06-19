@@ -241,7 +241,7 @@ extension AppStore {
     func downloadLatestCommunitySnippets() {
         Task {
             do {
-                guard let downloadURL = URL(string: "https://gist.githubusercontent.com/MarcoEidinger/d716f1264d936e0615f6ed8c3dc34c0a/raw/4bb4bf67c73d1775a27c16ef2709afe512c98009/Snippets.json") else {
+                guard let downloadURL = URL(string: "https://raw.githubusercontent.com/MarcoEidinger/XCSnippetsApp/main/XCSnippetsApp/CodeSnippets/snippets.json") else {
                     throw AppError.incorrectDownloadURL
                 }
                 let response = try await URLSession.shared.data(from: downloadURL)
