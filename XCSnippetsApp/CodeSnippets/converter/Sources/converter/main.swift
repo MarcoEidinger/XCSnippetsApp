@@ -31,7 +31,12 @@ do {
         let dict = try PropertyListSerialization.propertyList(from: data, options: [], format: nil) as! [String: Any]
         jsonRoot["list"]?.append(dict)
     }
-    let jsonData = try JSONSerialization.data(withJSONObject: jsonRoot, options: .prettyPrinted)
+    let jsonData: Data
+    if #available(macOS 10.13, *) {
+        jsonData = try JSONSerialization.data(withJSONObject: jsonRoot, options: .sortedKeys)
+    } else {
+        jsonData = try JSONSerialization.data(withJSONObject: jsonRoot, options: .prettyPrinted)
+    }
     let targetDirectory = currentDirectoryPathURL.deletingLastPathComponent()
     try jsonData.write(to: targetDirectory.appendingPathComponent("snippets.json"))
 
