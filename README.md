@@ -30,3 +30,6 @@ macOS application to explore code snippets from the Swift and iOS community, vie
 Download the latest version from [GitHub Releases](https://github.com/MarcoEidinger/XCSnippetsApp/releases).
 
 Copy XCSnippetsApp to your Applications folder.
+
+
+/Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.framework/Versions/A/Resources/SystemCodeSnippets.codesnippets
