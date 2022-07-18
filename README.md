@@ -31,5 +31,6 @@ Download the latest version from [GitHub Releases](https://github.com/MarcoEidin
 
 Copy XCSnippetsApp to your Applications folder.
 
+## Contribute
 
-/Applications/Xcode.app/Contents/PlugIns/IDESourceEditor.framework/Versions/A/Resources/SystemCodeSnippets.codesnippets
+To share your code snippets with the community and that your snippets will be available in the app, I ask you to add them to https://github.com/MarcoEidinger/me.codesnippet with a pull request.
