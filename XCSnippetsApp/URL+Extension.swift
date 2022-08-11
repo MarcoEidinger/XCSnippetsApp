@@ -24,4 +24,30 @@ extension URL {
 
         return appFolder
     }
+
+    /// fully specified file URL pointing to `~/Library/Developer/Xcode/UserData/CodeSnippets/`
+    static var xcodeUserDataDirectoryURL: URL {
+        get throws {
+            let libraryDirectory = try FileManager.default.url(
+                for: .libraryDirectory,
+                in: .userDomainMask,
+                appropriateFor: nil,
+                create: true
+            )
+            return libraryDirectory.appendingPathComponent("Developer/Xcode/UserData")
+        }
+    }
+
+    var existsAsDirectory: Bool {
+        let fileManager = FileManager.default
+
+        var isDirectory: ObjCBool = false
+        let folderExists = fileManager.fileExists(atPath: path,
+                                                  isDirectory: &isDirectory)
+        if !folderExists || !isDirectory.boolValue {
+            return false
+        } else {
+            return true
+        }
+    }
 }
