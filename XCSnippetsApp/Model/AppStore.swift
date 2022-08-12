@@ -50,6 +50,14 @@ final class AppStore: ObservableObject {
             }
 
             snippets = platformAndLanguageFiltered
+
+            if let previousSelectedItem = selectedItem,
+               snippets.contains(previousSelectedItem) == false
+            {
+                // the previous selected snippet might not be visible due to an applied filter
+                // then remove the selection
+                selectedItems = Set<XCSnippet>()
+            }
         }
     }
 
