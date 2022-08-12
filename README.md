@@ -33,4 +33,6 @@ Copy XCSnippetsApp to your Applications folder.
 
 ## Contribute
 
-To share your code snippets with the community and that your snippets will be available in the app, I ask you to add them to https://github.com/MarcoEidinger/me.codesnippet with a pull request.
+To share your code snippets with the community and that your snippets will be available in the app, you can either
+- host them in your public GitHub repo (let me know so that I can instrument the app to source your snippets) OR
+- add them to https://github.com/MarcoEidinger/me.codesnippet with a pull request.
