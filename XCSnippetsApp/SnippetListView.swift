@@ -108,9 +108,9 @@ struct SnippetListView: View {
             return store.snippets
         } else {
             return store.snippets.filter { snippet in
-                snippet.title?.contains(searchText) ?? false ||
-                    snippet.summary?.contains(searchText) ?? false ||
-                    snippet.contents?.contains(searchText) ?? false
+                snippet.title?.lowercased().contains(searchText.lowercased()) ?? false ||
+                    snippet.summary?.lowercased().contains(searchText.lowercased()) ?? false ||
+                    snippet.contents?.lowercased().contains(searchText.lowercased()) ?? false
             }
         }
     }
